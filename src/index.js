@@ -6,13 +6,13 @@ addEventListener("fetch", (event) => {
 const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
-  "docker.yan2sleep.org": "https://registry-1.docker.io",
-  "quay.yan2sleep.org": "https://quay.io",
-  "gcr.yan2sleep.org": "https://gcr.io",
-  "k8s-gcr.yan2sleep.org": "https://k8s.gcr.io",
-  "k8s.yan2sleep.org": "https://registry.k8s.io",
-  "ghcr.yan2sleep.org": "https://ghcr.io",
-  "cloudsmith.yan2sleep.org": "https://docker.cloudsmith.io",
+  "docker.yan2sleep.eu.org": "https://registry-1.docker.io",
+  "quay.yan2sleep.eu.org": "https://quay.io",
+  "gcr.yan2sleep.eu.org": "https://gcr.io",
+  "k8s-gcr.yan2sleep.eu.org": "https://k8s.gcr.io",
+  "k8s.yan2sleep.eu.org": "https://registry.k8s.io",
+  "ghcr.yan2sleep.eu.org": "https://ghcr.io",
+  "cloudsmith.yan2sleep.eu.org": "https://docker.cloudsmith.io",
 };
 
 function routeByHosts(host) {
